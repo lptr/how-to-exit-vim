@@ -280,6 +280,13 @@ Credit: @theBenRaskin
 ^Z ps axuw | grep vim | grep -v grep | awk '{print $2}' | xargs kill -9
 ```
 
+## The elegant suspend way
+Credit: @lptr
+
+```bash
+^Z kill %+
+```
+
 ## The Minimal, Open-Source way
 Credit: @Jbwasse2
 
